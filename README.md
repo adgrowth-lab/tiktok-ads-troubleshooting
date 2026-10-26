@@ -2,24 +2,28 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](audit.py)
-[![Test Suite: 100% Passed](https://img.shields.io/badge/Tests-14%2F14_Passing-brightgreen?style=for-the-badge)](test_audit.py)
+[![Test Suite: 100% Passed](https://img.shields.io/badge/Tests-31%2F31_Passing-brightgreen?style=for-the-badge)](test_audit.py)
 [![Reddit 30-Day Research](https://img.shields.io/badge/Data-64_Reddit_Cases-orange?style=for-the-badge&logo=reddit&logoColor=white)](research-tiktok-ads-reddit-30days.md)
 [![Live Web Calculator](https://img.shields.io/badge/Web_App-Interactive_Simulator-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white)](https://adgrowth-lab.github.io/)
 
 > **The empirical, battle-tested troubleshooting handbook and diagnostic CLI suite for DTC brands, e-commerce stores, and media buyers scaling on TikTok Ads.**  
-> Derived from a comprehensive 30-day investigation of **64 live advertiser cases** across `r/TikTokAds`, `r/PPC`, `r/dropship`, and `r/shopify`. Includes zero-dependency Python tools to detect Pangle bot leaks, audit cold-start campaign viability, and calculate official partner credit matches.
+> Derived from a comprehensive 30-day investigation of **64 live advertiser cases** across `r/TikTokAds`, `r/PPC`, `r/dropship`, and `r/shopify`. Features an all-in-one defense architecture uniting traffic integrity, cold-start viability, creative compliance linting, VCC payment risk benchmarking, and emergency suspension appeal recovery.
 
 ---
 
-## ⚡ Quick Navigation
+## ⚡ Quick Navigation: The 4 Defense Pillars & Utilities
 
-| Module | Location | Purpose |
+| Pillar / Module | Primary File / Command | Core Function & Scope |
 | :--- | :--- | :--- |
-| **🚨 Pangle Leak Detector** | [`audit.py pangle`](#-41-pangle-budget--bot-traffic-leak-detector) | Detects budget drain from 3rd-party gaming apps (Shopify/GA4 CSV support) |
-| **🎯 Cold-Start Campaign Linter** | [`audit.py cold-start`](#-42-cold-start-campaign-survival-evaluator) | Algorithmic pre-launch auditor scoring your setup (0–100) before spending |
-| **💰 Spend Match Estimator** | [`audit.py spend-match`](#-43-official-spend-match-simulator) | Terminal calculator for official TikTok promotional credits ($200–$6,000) |
-| **📊 30-Day Empirical Dossier** | [`research-tiktok-ads-reddit-30days.md`](research-tiktok-ads-reddit-30days.md) | In-depth breakdown of 64 community threads and case studies |
-| **🧮 Interactive Web Simulator** | [adgrowth-lab.github.io](https://adgrowth-lab.github.io/) | Clean browser calculator for media-buying purchasing power |
+| 🌐 **All-in-One Defense Suite** | [`COMPREHENSIVE-DEFENSE-SUITE.md`](COMPREHENSIVE-DEFENSE-SUITE.md)<br>`python3 audit.py full-audit` | **Integrated master scan**: Evaluates creative, campaign, payment, and traffic in one command |
+| 🛡️ **Scheme A: Compliance Linter** | [`CREATIVE-COMPLIANCE-GUIDE.md`](CREATIVE-COMPLIANCE-GUIDE.md)<br>`python3 audit.py compliance` | **Pre-flight copy & script auditor**: Catches absolute claims, body shaming, and IP risks |
+| 💳 **Scheme B: VCC BIN Database** | [`vcc-bin-database.md`](vcc-bin-database.md)<br>`python3 audit.py bin` | **2026 payment survival table**: 16 verified BINs (Mercury, Stripe, Relay, Airwallex, etc.) |
+| 📨 **Scheme C: Appeal Field Kit** | [`appeal-templates/`](appeal-templates/)<br>`python3 audit.py appeal` | **5 battle-tested legal templates**: Unusual Activity, Payment Discrepancy, Policy Reversals |
+| 🚨 **Pangle Bot Leak Detector** | `python3 audit.py pangle` | **Traffic auditor**: Detects budget drain from 3rd-party gaming apps (Shopify/GA4 CSV support) |
+| 🎯 **Cold-Start Campaign Linter** | `python3 audit.py cold-start` | **Algorithmic setup auditor**: Scores your setup (0–100) before spending |
+| 💰 **Spend Match Estimator** | `python3 audit.py spend-match` | **Official incentive simulator**: Promotional credits ($200–$6,000) calculator |
+| 📊 **30-Day Empirical Dossier** | [`research-tiktok-ads-reddit-30days.md`](research-tiktok-ads-reddit-30days.md) | **Reddit intelligence**: Analysis of 64 live media buyer threads and case studies |
+| 🧮 **Interactive Web Simulator** | [adgrowth-lab.github.io](https://adgrowth-lab.github.io/) | **Clean browser calculator**: Media-buying purchasing power and spend-match estimator |
 
 ---
 
@@ -234,6 +238,71 @@ VERIFIED OFFICIAL REDEMPTION PATH:
 
 ---
 
+### 3.4 Creative Compliance & Sensitive Word Linter (Scheme A)
+Scans ad text, captions, and hook scripts for TikTok Advertising Policy violations, absolute superlatives, body shaming, and counterfeit terminology.
+
+```bash
+# Scan ad copy text directly
+python3 audit.py compliance --text "Get 100% cure for belly fat and make $5,000 overnight!"
+
+# Or scan an entire video transcript file
+python3 audit.py compliance --file ad_script.txt
+
+# Machine-readable JSON output
+python3 audit.py compliance --text "Botanical soothing hydration ritual" --json
+```
+
+👉 **Full Handbook**: [`CREATIVE-COMPLIANCE-GUIDE.md`](CREATIVE-COMPLIANCE-GUIDE.md)
+
+---
+
+### 3.5 VCC BIN & Payment Risk Evaluator (Scheme B)
+Inspects credit/debit card BIN prefixes against the 2026 empirical survival database, reporting 3DS authentication requirements, ban rates, and AVS matching checklists.
+
+```bash
+# Evaluate a specific card BIN (e.g. Mercury Visa Commercial)
+python3 audit.py bin 405081
+
+# List all 16 benchmarked card issuers (Mercury, Stripe, Relay, Airwallex, etc.)
+python3 audit.py bin --list
+```
+
+👉 **Full Database**: [`vcc-bin-database.md`](vcc-bin-database.md)
+
+---
+
+### 3.6 Account Suspension Appeal Generator (Scheme C)
+Generates battle-tested, customized 4-Pillar appeal packets tailored to your business entity and suspension trigger.
+
+```bash
+# Generate a customized Payment Discrepancy appeal packet
+python3 audit.py appeal --type payment --brand "EcoNest Goods" --account-id "ADV-883921" --output payment_appeal.txt
+
+# Generate an Unusual Activity security appeal
+python3 audit.py appeal --type unusual-activity --brand "Pulse Footwear" --account-id "ADV-102934"
+```
+
+👉 **Full Template Library**: [`appeal-templates/`](appeal-templates/)
+
+---
+
+### 3.7 All-in-One Comprehensive Defense Suite (Integrated Master Scan)
+Executes a multi-layer audit combining Campaign Viability (30%), Creative Compliance (35%), Payment VCC Risk (25%), and Traffic Integrity (10%) in a single command.
+
+```bash
+python3 audit.py full-audit \
+  --budget 200 \
+  --target-cpa 25 \
+  --bin 405081 \
+  --ad-text "Discover our daily botanical hydration ritual for radiant and refreshed skin." \
+  --placement tiktok_only \
+  --format spark_ads
+```
+
+👉 **Full Architecture Blueprint**: [`COMPREHENSIVE-DEFENSE-SUITE.md`](COMPREHENSIVE-DEFENSE-SUITE.md)
+
+---
+
 ## 📋 4. The 2026 TikTok Media Buyer Pre-Flight Checklist
 
 Before you hit "Publish" in TikTok Ads Manager, verify against this empirical rule set:
@@ -272,8 +341,18 @@ If you are scaling campaigns and spending over $200/month, you are eligible to c
 ```text
 tiktok-ads-troubleshooting/
 ├── README.md                          # The comprehensive 2026 Field Guide & handbook
-├── audit.py                           # Standalone zero-dependency Python diagnostic CLI
-├── test_audit.py                      # Complete unit test suite (14/14 tests)
+├── audit.py                           # Zero-dependency Python diagnostic CLI (All modules)
+├── test_audit.py                      # Complete unit test suite (31/31 tests passing)
+├── COMPREHENSIVE-DEFENSE-SUITE.md     # Master blueprint uniting all 4 defense pillars (融合方案)
+├── CREATIVE-COMPLIANCE-GUIDE.md       # Policy manual & sensitive words de-risking guide (Scheme A)
+├── vcc-bin-database.md                # 2026 VCC BIN empirical survival & anti-ban table (Scheme B)
+├── appeal-templates/                  # Battle-tested account suspension appeal kit (Scheme C)
+│   ├── README.md                      # 4-Pillar evidence protocol & ticket escalation SOP
+│   ├── 01-unusual-activity-suspension.md
+│   ├── 02-payment-discrepancy-card-verification.md
+│   ├── 03-creative-policy-misleading-ad-reversal.md
+│   ├── 04-business-center-agency-account-ban.md
+│   └── 05-identity-business-verification-appeal.md
 ├── calculate.py                       # Standalone spend receipt generator
 ├── research-tiktok-ads-reddit-30days.md # Full 30-day Reddit community research dossier (Chinese)
 ├── LICENSE                            # MIT License
