@@ -19,18 +19,18 @@
 
 ## ⚡ Quick Navigation: The 4 Defense Pillars & Utilities
 
-| Pillar / Module | Primary File / Command | Core Function & Scope |
-| :--- | :--- | :--- |
-| 🎁 **Official Partner Gateway** | [Claim Up To $6,000 Credits](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng) | **Direct verified registration**: Unlocks spend match vouchers ($200–$6,000) & whitelisted billing |
-| 🌐 **All-in-One Defense Suite** | [`COMPREHENSIVE-DEFENSE-SUITE.md`](COMPREHENSIVE-DEFENSE-SUITE.md)<br>`python3 audit.py full-audit` | **Integrated master scan**: Evaluates creative, campaign, payment, and traffic in one command |
-| 🛡️ **Scheme A: Compliance Linter** | [`CREATIVE-COMPLIANCE-GUIDE.md`](CREATIVE-COMPLIANCE-GUIDE.md)<br>`python3 audit.py compliance` | **Pre-flight copy & script auditor**: Catches absolute claims, body shaming, and IP risks |
-| 💳 **Scheme B: VCC BIN Database** | [`vcc-bin-database.md`](vcc-bin-database.md)<br>`python3 audit.py bin` | **2026 payment survival table**: 16 verified BINs (Mercury, Stripe, Relay, Airwallex, etc.) |
-| 📨 **Scheme C: Appeal Field Kit** | [`appeal-templates/`](appeal-templates/)<br>`python3 audit.py appeal` | **5 battle-tested legal templates**: Unusual Activity, Payment Discrepancy, Policy Reversals |
-| 🚨 **Pangle Bot Leak Detector** | `python3 audit.py pangle` | **Traffic auditor**: Detects budget drain from 3rd-party gaming apps (Shopify/GA4 CSV support) |
-| 🎯 **Cold-Start Campaign Linter** | `python3 audit.py cold-start` | **Algorithmic setup auditor**: Scores your setup (0–100) before spending |
-| 💰 **Spend Match Estimator** | `python3 audit.py spend-match` | **Official incentive simulator**: Promotional credits ($200–$6,000) calculator |
-| 📊 **30-Day Empirical Dossier** | [`research-tiktok-ads-reddit-30days.md`](research-tiktok-ads-reddit-30days.md) | **Reddit intelligence**: Analysis of 64 live media buyer threads and case studies |
-| 🧮 **Interactive Web Simulator** | [adgrowth-lab.github.io](https://adgrowth-lab.github.io/) | **Clean browser calculator**: Media-buying purchasing power and spend-match estimator |
+| Pillar / Module | Primary File / Command | Standalone Repository | Core Function & Scope |
+| :--- | :--- | :--- | :--- |
+| 🎁 **Official Partner Gateway** | [Claim Up To $6,000 Credits](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng) | [partnerlinks.io Gateway](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng) | **Direct verified registration**: Unlocks spend match vouchers ($200–$6,000) & whitelisted billing |
+| 🌐 **All-in-One Defense Suite** | [`COMPREHENSIVE-DEFENSE-SUITE.md`](COMPREHENSIVE-DEFENSE-SUITE.md)<br>`python3 audit.py full-audit` | [tiktok-ads-troubleshooting](https://github.com/adgrowth-lab/tiktok-ads-troubleshooting) | **Integrated master scan**: Evaluates creative, campaign, payment, and traffic in one command |
+| 🛡️ **Scheme A: Compliance Linter** | [`CREATIVE-COMPLIANCE-GUIDE.md`](CREATIVE-COMPLIANCE-GUIDE.md)<br>`python3 audit.py compliance` | [tiktok-creative-compliance-linter](https://github.com/adgrowth-lab/tiktok-creative-compliance-linter) | **Pre-flight copy & script auditor**: Catches absolute claims, body shaming, and IP risks |
+| 💳 **Scheme B: VCC BIN Database** | [`vcc-bin-database.md`](vcc-bin-database.md)<br>`python3 audit.py bin` | [tiktok-vcc-bin-database](https://github.com/adgrowth-lab/tiktok-vcc-bin-database) | **2026 payment survival table**: 16 verified BINs (Mercury, Stripe, Relay, Airwallex, etc.) |
+| 📨 **Scheme C: Appeal Field Kit** | [`appeal-templates/`](appeal-templates/)<br>`python3 audit.py appeal` | [tiktok-ads-appeal-kit](https://github.com/adgrowth-lab/tiktok-ads-appeal-kit) | **5 battle-tested legal templates**: Unusual Activity, Payment Discrepancy, Policy Reversals |
+| 🚨 **Pangle Bot Leak Detector** | `python3 audit.py pangle` | Included in Master CLI | **Traffic auditor**: Detects budget drain from 3rd-party gaming apps (Shopify/GA4 CSV support) |
+| 🎯 **Cold-Start Campaign Linter** | `python3 audit.py cold-start` | Included in Master CLI | **Algorithmic setup auditor**: Scores your setup (0–100) before spending |
+| 💰 **Spend Match Estimator** | `python3 audit.py spend-match` | Included in Master CLI | **Official incentive simulator**: Promotional credits ($200–$6,000) calculator |
+| 📊 **30-Day Empirical Dossier** | [`research-tiktok-ads-reddit-30days.md`](research-tiktok-ads-reddit-30days.md) | Included in Master Repo | **Reddit intelligence**: Analysis of 64 live media buyer threads and case studies |
+| 🧮 **Interactive Web Simulator** | [adgrowth-lab.github.io](https://adgrowth-lab.github.io/) | [adgrowth-lab.github.io](https://github.com/adgrowth-lab/adgrowth-lab.github.io) | **Clean browser calculator**: Media-buying purchasing power and spend-match estimator |
 
 ---
 
@@ -384,6 +384,20 @@ tiktok-ads-troubleshooting/
 ├── LICENSE                            # MIT License
 └── .gitignore                         # Python cache & OS files ignore
 ```
+
+---
+
+## 🌐 AdGrowth Lab Ecosystem & Standalone Repositories
+
+Each defense scheme is also available as a dedicated, standalone open-source repository:
+
+| Project / Repository | Focus & Core Deliverable | Standalone GitHub Link |
+| :--- | :--- | :--- |
+| 🛡️ **Creative Compliance Linter** *(Scheme A)* | Pre-flight copy, voiceover transcript & hook policy scanner | [adgrowth-lab/tiktok-creative-compliance-linter](https://github.com/adgrowth-lab/tiktok-creative-compliance-linter) |
+| 💳 **VCC BIN Database & Evaluator** *(Scheme B)* | 16 verified BIN benchmarks, 3DS behavior & anti-ban rules | [adgrowth-lab/tiktok-vcc-bin-database](https://github.com/adgrowth-lab/tiktok-vcc-bin-database) |
+| 📨 **Suspension Appeal Field Kit** *(Scheme C)* | 5 legal templates, 4-pillar evidence & clean-slate SOP | [adgrowth-lab/tiktok-ads-appeal-kit](https://github.com/adgrowth-lab/tiktok-ads-appeal-kit) |
+| 🌐 **All-in-One Troubleshooting Suite** | Full master diagnostic CLI & 30-day Reddit empirical dossier | [adgrowth-lab/tiktok-ads-troubleshooting](https://github.com/adgrowth-lab/tiktok-ads-troubleshooting) |
+| 🧮 **Interactive Web Simulator** | Real-time media buying purchasing power calculator | [adgrowth-lab.github.io](https://adgrowth-lab.github.io/) |
 
 ---
 
