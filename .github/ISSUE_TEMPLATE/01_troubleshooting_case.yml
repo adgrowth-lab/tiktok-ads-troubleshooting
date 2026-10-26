@@ -1,0 +1,36 @@
+name: "Ad Campaign Diagnostic & Troubleshooting Case"
+description: "Submit a TikTok Ads delivery issue, unusual activity suspension, or payment failure for diagnostic review"
+title: "[Case]: "
+labels: ["troubleshooting", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### TikTok Ads Diagnostic Intake Form
+        Before opening a new case, please verify if your issue is covered in the [Ubersuggest Problem-Solving Index](README.md#-8-ubersuggest-long-tail-keyword--problem-solving-index) or the [Interactive Web Calculator](https://adgrowth-lab.github.io/).
+  - type: input
+    id: campaign_type
+    attributes:
+      label: "Campaign Objective & Bidding Strategy"
+      description: "e.g., Complete Payment (Conversions), Lowest Cost vs Cost Cap"
+      placeholder: "e.g. Website Conversions, Cost Cap $20"
+    validations:
+      required: true
+  - type: textarea
+    id: symptoms
+    attributes:
+      label: "Observed Symptoms"
+      description: "Describe what is happening (e.g. 0 impressions after 24h, Pangle high bounce rate, card declined)"
+      placeholder: "Campaign status says Active, daily budget $100, but 0 spend after 24 hours..."
+    validations:
+      required: true
+  - type: dropdown
+    id: account_type
+    attributes:
+      label: "Ad Account Classification"
+      options:
+        - "Self-Serve Personal Ad Account ($50/day limit)"
+        - "Standard TikTok Business Center Account"
+        - "Agency Whitelisted Ad Account (No spend limit)"
+    validations:
+      required: true

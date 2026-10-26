@@ -5,6 +5,8 @@
 [![Test Suite: 100% Passed](https://img.shields.io/badge/Tests-31%2F31_Passing-brightgreen?style=for-the-badge)](test_audit.py)
 [![TikTok Ads Credit: Up to $6,000 Match](https://img.shields.io/badge/TikTok_Ads_Credit-Up_To_$6,000_Match-25f4ee?style=for-the-badge&logo=tiktok&logoColor=black)](https://adgrowth-lab.github.io/)
 [![Official Partner Gateway](https://img.shields.io/badge/Official_Route-Direct_TikTok_Partner-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white)](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)
+[![Latest Release](https://img.shields.io/badge/Release-v2026.1.0-blue?style=for-the-badge&logo=github)](https://github.com/adgrowth-lab/tiktok-ads-troubleshooting/releases)
+[![Resolved Cases](https://img.shields.io/badge/Resolved_Cases-4_Verified_Q&A-brightgreen?style=for-the-badge&logo=github)](https://github.com/adgrowth-lab/tiktok-ads-troubleshooting/issues?q=is%3Aissue+is%3Aclosed)
 [![Reddit 30-Day Research](https://img.shields.io/badge/Data-64_Reddit_Cases-orange?style=for-the-badge&logo=reddit&logoColor=white)](research-tiktok-ads-reddit-30days.md)
 
 > **The empirical, battle-tested TikTok Ads troubleshooting handbook and diagnostic CLI suite for DTC brands, e-commerce stores, Shopify dropshippers, and media buyers.**  
@@ -404,6 +406,19 @@ Map of high-volume advertiser search queries from Ubersuggest, Reddit, and Googl
 | **`how much do tiktok ads cost`** | High (Informational) | Evaluating CPC ($0.50–$2.00) and CPM ($3.20–$10.00) benchmarks and minimum daily budgets | Ad group minimum: $20/day; campaign minimum: $50/day. Spend match cuts effective ad cost by up to 50% |
 | **`tiktok ads $50 daily spend limit`** | Moderate-High (Growth Block) | Personal ad account anti-fraud probation sandbox | Upgrade to an agency whitelisted line via the [Direct Partner Gateway](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng) |
 | **`tiktok ads for shopify dropshipping`** | High (Vertical Playbook) | External store bounce rates; optimizing for Add to Cart instead of Complete Payment | Connect TikTok sales channel; optimize exclusively for Complete Payment; deploy Spark Ads |
+
+---
+
+## 💬 9. Solved Advertiser Cases & Verified Community Q&A
+
+Real advertiser troubleshooting cases and search queries resolved by AdGrowth Lab maintainers and community media buyers:
+
+| Solved Case / Discussion Thread | Problem Category | Verified Solution Summary | Direct Q&A Link |
+| :--- | :--- | :--- | :--- |
+| **`[Solved] TikTok ads not spending: Why campaigns get 0 impressions and how to jumpstart spend pacing (2026 Guide)`** | Spend Pacing & Learning Phase | Adjusted budget to ≥10× target CPA; switched from Cost Cap to Lowest Cost for 48h; isolated placements. | [View Solution #1](https://github.com/adgrowth-lab/tiktok-ads-troubleshooting/issues/1) |
+| **`[Audit] How to detect and block Pangle bot traffic leaks in TikTok Ads Manager`** | Bot Clicks & Placement Waste | Audited budget diversion to casual gaming apps; switched to Manual Placements to save 40%+ budget. | [View Solution #2](https://github.com/adgrowth-lab/tiktok-ads-troubleshooting/issues/2) |
+| **`[Benchmark] How much do TikTok Ads cost in 2026? CPC, CPM rates and how to claim up to $6,000 TikTok Ad Credit match`** | Cost Benchmarks & Incentives | Tier-1 vs Tier-2 CPM/CPC rates benchmarked; automated spend match program tiers calculated. | [View Solution #3](https://github.com/adgrowth-lab/tiktok-ads-troubleshooting/issues/3) |
+| **`[SOP] TikTok Ads for Shopify dropshipping: Cold-start campaign structure, Complete Payment pixel, and Spark Ads`** | E-commerce Vertical SOP | Switched pixel from AddToCart to Complete Payment; deployed 3x3 Creative Matrix; bypassed $50 limit. | [View Solution #4](https://github.com/adgrowth-lab/tiktok-ads-troubleshooting/issues/4) |
 
 ---
 
