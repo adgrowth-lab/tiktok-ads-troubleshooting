@@ -1,19 +1,20 @@
-# The Missing TikTok Ads Troubleshooting & Anti-Leak Field Guide (2026 Edition) 🛡️
+# TikTok Ads Troubleshooting & Optimization Guide (2026 Edition): Fix TikTok Ads Not Spending, Audit Pangle Bot Traffic & Claim $6,000 TikTok Ad Credit 🛡️
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](audit.py)
 [![Test Suite: 100% Passed](https://img.shields.io/badge/Tests-31%2F31_Passing-brightgreen?style=for-the-badge)](test_audit.py)
-[![Official Partner Gateway](https://img.shields.io/badge/Official_Route-Claim_Up_To_$6,000_Credit-25f4ee?style=for-the-badge&logo=tiktok&logoColor=black)](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)
+[![TikTok Ads Credit: Up to $6,000 Match](https://img.shields.io/badge/TikTok_Ads_Credit-Up_To_$6,000_Match-25f4ee?style=for-the-badge&logo=tiktok&logoColor=black)](https://adgrowth-lab.github.io/)
+[![Official Partner Gateway](https://img.shields.io/badge/Official_Route-Direct_TikTok_Partner-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white)](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)
 [![Reddit 30-Day Research](https://img.shields.io/badge/Data-64_Reddit_Cases-orange?style=for-the-badge&logo=reddit&logoColor=white)](research-tiktok-ads-reddit-30days.md)
-[![Live Web Calculator](https://img.shields.io/badge/Web_App-Interactive_Simulator-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white)](https://adgrowth-lab.github.io/)
 
-> **The empirical, battle-tested troubleshooting handbook and diagnostic CLI suite for DTC brands, e-commerce stores, and media buyers scaling on TikTok Ads.**  
-> Derived from a comprehensive 30-day investigation of **64 live advertiser cases** across `r/TikTokAds`, `r/PPC`, `r/dropship`, and `r/shopify`. Features an all-in-one defense architecture uniting traffic integrity, cold-start viability, creative compliance linting, VCC payment risk benchmarking, and emergency suspension appeal recovery.
+> **The empirical, battle-tested TikTok Ads troubleshooting handbook and diagnostic CLI suite for DTC brands, e-commerce stores, Shopify dropshippers, and media buyers.**  
+> Solve **TikTok ads not spending**, audit **Pangle bot traffic leaks**, navigate the **TikTok ads learning phase**, and claim up to **$6,000 in official TikTok ads credit**. Derived from a 30-day investigation of **64 live advertiser cases** across `r/TikTokAds`, `r/PPC`, `r/dropship`, and `r/shopify`.
 
-> 🎁 **OFFICIAL TIKTOK PARTNER INCENTIVE GATEWAY (CLAIM UP TO $6,000 CREDIT)**:  
-> High-velocity media buyers can bypass personal ad account probation sandboxes ($50/day spend caps) and claim **up to $6,000 in official matching ad credits** directly through the verified partner gateway:  
+> 🎁 **OFFICIAL TIKTOK ADS CREDIT & PARTNER INCENTIVE GATEWAY (CLAIM UP TO $6,000 MATCH)**:  
+> High-velocity media buyers can bypass personal ad account probation sandboxes ($50/day spend caps) and claim **up to $6,000 in official matching TikTok ad credits** plus a stackable 50% discount voucher directly through the verified partner gateway:  
 > 👉 **[Direct TikTok Ads Manager Partner Registration (partnerlinks.io)](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)**  
-> *(Official ByteDance enterprise partnership route via Impact.com · Automatic 100%–60% spend matching on new accounts)*
+> 🧮 **Interactive Modeling Simulator**: **[Launch Web Match Calculator (adgrowth-lab.github.io)](https://adgrowth-lab.github.io/)**  
+> *(Official ByteDance enterprise partnership route via Impact.com · Automatic 100%–60% spend matching on new TikTok Ads accounts)*
 
 ---
 
@@ -384,6 +385,25 @@ tiktok-ads-troubleshooting/
 ├── LICENSE                            # MIT License
 └── .gitignore                         # Python cache & OS files ignore
 ```
+
+---
+
+## 🔍 8. Ubersuggest Long-Tail Keyword & Problem-Solving Index
+
+Map of high-volume advertiser search queries from Ubersuggest, Reddit, and Google SERPs directly to diagnostic solutions in `audit.py`:
+
+| Search Query / Intent Category | Estimated Monthly Search Intent | Common Root Cause | Direct Solution & CLI Command |
+| :--- | :--- | :--- | :--- |
+| **`tiktok ads not spending`** | High (Commercial Problem) | Daily budget set lower than target CPA; learning phase stall; narrow audience targeting | Increase daily budget to ≥10× target CPA; switch to broad targeting; run `python3 audit.py cold-start` |
+| **`tiktok ads credit` / `tiktok ad credit`** | High (Commercial / Incentive) | Searching for spend match offers ($200 to $6,000) for new ad accounts | Claim through [Verified Partner Gateway](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng) or simulate at [adgrowth-lab.github.io](https://adgrowth-lab.github.io/) |
+| **`tiktok ads pangle bot clicks`** | Moderate-High (Technical Leak) | Default Automatic Placements silently routing budget to 3rd-party casual mobile gaming interstitials | Switch to Manual Placements and uncheck Pangle; run `python3 audit.py pangle` to quantify wasted spend |
+| **`tiktok ads promo code 2026`** | High (Discount / Coupon) | Searching for expired manual coupon codes like "spend $100 get $100" | Use the automated partner link (no manual code required); stacks with 50% introductory coupon |
+| **`tiktok ads account suspended`** | High (Account Recovery) | Automated AEO triggers: unusual IP changes, payment hold, or policy 5.1 misleading claims | Generate legal appeal packets using [`appeal-templates/`](appeal-templates/) or run `python3 audit.py appeal` |
+| **`tiktok ad rejected policy 5.1`** | High (Creative Compliance) | Absolute superlatives ("100% cure"), weight loss claims, or missing landing page disclaimer | Scan copy and transcripts with [`linter.py`](https://github.com/adgrowth-lab/tiktok-creative-compliance-linter) before uploading |
+| **`tiktok ads payment method declined`** | High (Billing / VCC) | Low-reputation virtual credit card BIN (e.g. PST, Capitalist) or mismatched AVS billing address | Consult [`vcc-bin-database.md`](vcc-bin-database.md) or run `python3 audit.py bin` to benchmark 16 issuers |
+| **`how much do tiktok ads cost`** | High (Informational) | Evaluating CPC ($0.50–$2.00) and CPM ($3.20–$10.00) benchmarks and minimum daily budgets | Ad group minimum: $20/day; campaign minimum: $50/day. Spend match cuts effective ad cost by up to 50% |
+| **`tiktok ads $50 daily spend limit`** | Moderate-High (Growth Block) | Personal ad account anti-fraud probation sandbox | Upgrade to an agency whitelisted line via the [Direct Partner Gateway](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng) |
+| **`tiktok ads for shopify dropshipping`** | High (Vertical Playbook) | External store bounce rates; optimizing for Add to Cart instead of Complete Payment | Connect TikTok sales channel; optimize exclusively for Complete Payment; deploy Spark Ads |
 
 ---
 
