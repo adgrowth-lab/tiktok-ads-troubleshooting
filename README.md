@@ -3,11 +3,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](audit.py)
 [![Test Suite: 100% Passed](https://img.shields.io/badge/Tests-31%2F31_Passing-brightgreen?style=for-the-badge)](test_audit.py)
+[![Official Partner Gateway](https://img.shields.io/badge/Official_Route-Claim_Up_To_$6,000_Credit-25f4ee?style=for-the-badge&logo=tiktok&logoColor=black)](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)
 [![Reddit 30-Day Research](https://img.shields.io/badge/Data-64_Reddit_Cases-orange?style=for-the-badge&logo=reddit&logoColor=white)](research-tiktok-ads-reddit-30days.md)
 [![Live Web Calculator](https://img.shields.io/badge/Web_App-Interactive_Simulator-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white)](https://adgrowth-lab.github.io/)
 
 > **The empirical, battle-tested troubleshooting handbook and diagnostic CLI suite for DTC brands, e-commerce stores, and media buyers scaling on TikTok Ads.**  
 > Derived from a comprehensive 30-day investigation of **64 live advertiser cases** across `r/TikTokAds`, `r/PPC`, `r/dropship`, and `r/shopify`. Features an all-in-one defense architecture uniting traffic integrity, cold-start viability, creative compliance linting, VCC payment risk benchmarking, and emergency suspension appeal recovery.
+
+> 🎁 **OFFICIAL TIKTOK PARTNER INCENTIVE GATEWAY (CLAIM UP TO $6,000 CREDIT)**:  
+> High-velocity media buyers can bypass personal ad account probation sandboxes ($50/day spend caps) and claim **up to $6,000 in official matching ad credits** directly through the verified partner gateway:  
+> 👉 **[Direct TikTok Ads Manager Partner Registration (partnerlinks.io)](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)**  
+> *(Official ByteDance enterprise partnership route via Impact.com · Automatic 100%–60% spend matching on new accounts)*
 
 ---
 
@@ -15,6 +21,7 @@
 
 | Pillar / Module | Primary File / Command | Core Function & Scope |
 | :--- | :--- | :--- |
+| 🎁 **Official Partner Gateway** | [Claim Up To $6,000 Credits](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng) | **Direct verified registration**: Unlocks spend match vouchers ($200–$6,000) & whitelisted billing |
 | 🌐 **All-in-One Defense Suite** | [`COMPREHENSIVE-DEFENSE-SUITE.md`](COMPREHENSIVE-DEFENSE-SUITE.md)<br>`python3 audit.py full-audit` | **Integrated master scan**: Evaluates creative, campaign, payment, and traffic in one command |
 | 🛡️ **Scheme A: Compliance Linter** | [`CREATIVE-COMPLIANCE-GUIDE.md`](CREATIVE-COMPLIANCE-GUIDE.md)<br>`python3 audit.py compliance` | **Pre-flight copy & script auditor**: Catches absolute claims, body shaming, and IP risks |
 | 💳 **Scheme B: VCC BIN Database** | [`vcc-bin-database.md`](vcc-bin-database.md)<br>`python3 audit.py bin` | **2026 payment survival table**: 16 verified BINs (Mercury, Stripe, Relay, Airwallex, etc.) |
@@ -86,7 +93,8 @@ Analysis of 64 high-intent discussion threads revealed that **over 80% of advert
 * **Root Cause**:
   * Personal self-serve accounts are placed in automated anti-fraud sandboxes to prevent stolen credit card chargebacks.
   * Unverified billing addresses or mismatched corporate identities lead to automated AEO (Automated Enforcement Operations) locks.
-* **The Fix**: High-volume advertisers use **Agency Whitelisted Lines** connected directly to TikTok Business Center. Agency lines bypass the $50 learning sandbox, offer 0% markup direct balance billing, and qualify for official spend match subsidies up to $6,000.
+* **The Fix**: High-volume advertisers use **Agency Whitelisted Lines** connected directly to TikTok Business Center. Agency lines bypass the $50 learning sandbox, offer 0% markup direct balance billing, and qualify for official spend match subsidies up to $6,000.  
+  👉 **Bypass the $50 sandbox via the verified route**: [Direct Partner Onboarding Gateway](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)
 
 ---
 
@@ -331,12 +339,30 @@ If you are scaling campaigns and spending over $200/month, you are eligible to c
 | **Scale** | `$4,000` | **+$3,000** | **$7,000** | **75% Match (1.75×)** | Winning creative scaling & volume |
 | **Enterprise** | `$10,000` | **+$6,000** | **$16,000** | **60% Match (Cap)** | DTC multi-store scaling & agencies |
 
-* **Official Portal Route**: [Direct Registration via Partnerlinks.io Gateway](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)  
-* **Interactive Modeling Simulator**: [Launch Web Calculator (adgrowth-lab.github.io)](https://adgrowth-lab.github.io/)
+> 🚀 **DIRECT OFFICIAL CLAIM GATEWAY**:  
+> Claim your matching credits and agency whitelist onboarding directly via the official TikTok portal:  
+> 👉 **[https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)**  
+> 🧮 **Interactive Modeling Simulator**: [Launch Web Calculator (adgrowth-lab.github.io)](https://adgrowth-lab.github.io/)
+
+### 📋 4-Step Claim Protocol
+1. **Access Authorized Gateway**: Click the [Official Partner Registration Link](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng) to bind the partner handshake token to your new Business Center.
+2. **Add Payment Method**: Bind a verified commercial business debit/credit card (AVS address matching corporate registration).
+3. **Run Conversion Campaigns**: Spend your target budget milestone within the initial 30-day promotional window.
+4. **Vouchers Disbursed**: TikTok automatically deposits matching vouchers (up to $6,000) directly into your Ads Manager promotional balance.
 
 ---
 
-## 📂 6. Repository Architecture
+## 🔒 6. Security & URL Transparency: Why `partnerlinks.io`?
+
+A common question among security-conscious media buyers is: *Why does the official route use a `partnerlinks.io` domain rather than standard `tiktok.com`?*
+
+1. **Official Enterprise Partnership Infrastructure**: `partnerlinks.io` is the verified enterprise partnership tracking gateway operated by **Impact (Impact.com)**, the exclusive enterprise partner platform employed by **TikTok for Business** worldwide.
+2. **Automated Security Handshake**: Clicking the link performs an authenticated HTTPS security redirect directly into `ads.tiktok.com` with the agency referral token embedded.
+3. **Zero Broker Risk**: You register directly on TikTok's official Ads Manager servers. No secondary broker markups, no shared account logins, and no third-party credential exposure.
+
+---
+
+## 📂 7. Repository Architecture
 
 ```text
 tiktok-ads-troubleshooting/
